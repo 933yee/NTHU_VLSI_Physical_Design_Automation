@@ -1,0 +1,17 @@
+--How to Compile
+
+    In "HW2/src/", enter the following command:
+    $ make
+    Tow executable files, "hw2" and "hw2_parallel" will be generated in "HW2/src/".
+
+    If you want to remove it, please enter the following command:
+    $ make clean
+
+--How to Run
+
+    Usage:
+    $ ./hw2 <.txt file> <.out file>
+    $ ./hw2_parallel <.txt file> <.out file>
+
+    E.g., in "HW2/bin/", enter the following command:
+    $ ./hw2 ../testcase/public1.txt ../output/public1.out

@@ -1,0 +1,10 @@
+MaxDisplacementConstraint 12
+NumCells 3
+Cell c2 3 12 10 10
+Cell c0 1 12 10 10
+Cell c1 2 12 10 10
+NumBlockages 1
+Blockage b0 4 24 11 10
+NumRows 2
+Row r1 1 12 10 22 10
+Row r0 1 12 10 10 10

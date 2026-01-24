@@ -1,0 +1,13 @@
+make clean
+make
+../bin/hw4 ../testcase/public1.txt public1.out
+../bin/hw4 ../testcase/public2.txt public2.out
+../bin/hw4 ../testcase/public4.txt public4.out
+../bin/hw4 ../testcase/public3.txt public3.out
+# ../bin/hw4 ../testcase/my.txt my.out
+
+../verifier/verify ../testcase/public1.txt public1.out
+../verifier/verify ../testcase/public2.txt public2.out
+../verifier/verify ../testcase/public4.txt public4.out
+../verifier/verify ../testcase/public3.txt public3.out
+# ../verifier/verify ../testcase/my.txt my.out
